@@ -4,7 +4,7 @@ layout: default
 <div class=post>
     {% if page.feature %}
     <div class=feature-image>
-        <img src="{{ page.feature }}"/>
+        <img src="{{ site.baseurl }}{{ page.feature }}"/>
     </div>
     {% endif %}
     {% include post-meta.html %}
