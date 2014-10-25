@@ -1,6 +1,7 @@
 name: mysql blog
 description: Blog of Shevckcccc
 url: "http://mysql.im"
+baseurl: /mysql.im
 
 # Author info
 author_name: Shevckcccc
