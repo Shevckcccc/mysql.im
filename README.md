@@ -1,6 +1,6 @@
 # Blog
 
-This is my technology blog. I've also written a [life blog](http://java.im/) on my owner vps
+This is my technology blog. I've also written a [life blog](http://java.im/) on my own vps
 
 ## Powered By
 
