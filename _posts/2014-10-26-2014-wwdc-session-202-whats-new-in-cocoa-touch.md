@@ -36,7 +36,7 @@ tags: WWDC WWDC-2014
 - 增加了size classes，这是苹果今年主推的概念，跟autolayout配合可以解决多屏幕适配的问题
 - 增加了margins属性，如下所示，现在在xcode6中新建autolayout就可以看到constrain to margins被默认选中：
 ![margin](/images/margin.png)
-- 增加了UISplitViewController，这个原先是iPad上的控件，现在在iPhone上也可以统一使用了，而且官方建议使用，
+- 增加了UISplitViewController，这个原先是iPad上的类，现在在iPhone上也可以统一使用了，而且官方建议使用，
 用于以后取代NavigationController的push，目的是将这一过程自适应化。
 
 ####2. Presentations适配
@@ -88,10 +88,10 @@ Xcode工具 Edit -> Refactor -> Convert to Modern OC Syntax..
 Handoff也是一个比较有意思的概念，可以用于各设备之间的协作
 
 ####12. Notification Center
-增加自定义控件
+通知中心增加自定义控件
 
 ####13. Photos权限
-可以调用camera接口调教对焦、曝光等等
+可以调用camera接口调整对焦、曝光等等
 
 ####14. CloudKit权限
 更多的数据访问权限
