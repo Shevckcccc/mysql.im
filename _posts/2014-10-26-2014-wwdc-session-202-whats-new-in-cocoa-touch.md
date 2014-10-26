@@ -14,13 +14,16 @@ tags: WWDC WWDC-2014
 - 自适应的Table Cell
 - App Extensions
 - 第三方输入法
-- Notification Updates
+- Notification更新
 - DocumentPickerViewController
 - SDK Modernization
 - Handoff
-- Homekit
-- Local Authorization
-- Cross-Platform 3D render for iOS
+- Notification Center
+- Photos
+- CloudKit
+- HealthKit
+- Local Authentication
+- SceneKit
 - Core Locations
 
 看了以上条目是不是觉得信息量超大，是的，今年cocoa touch所有的变动全部在这里了。
@@ -62,6 +65,49 @@ tags: WWDC WWDC-2014
 
 ####8. 第三方输入法
 iOS开始支持第三方输入法
+
+####8. Notification更新
+这是一个很有意思的更新，一直以来，app第一次打开时会弹出请求通知权限，但这些都是服务端通知，
+本地通知在展现时依旧不需要权限(所以很多app明明已经关了权限结果还会有各种通知过来），现在
+从iOS8开始，本地通知也需要开始请求权限。另外附加的一点是app可以发送一些非UI请求的数据来用于app更新，
+而这些是不需要请求用户权限的。最后就是通知弹出按钮可以自定义了
+
+####9. DocumentPickerViewController
+开始支持iCloud和第三方文档。
+
+####10. SDK Modernization
+OC的语法更新,见[ModernizationObjC](https://developer.apple.com/library/ios/releasenotes/ObjectiveC/ModernizationObjC/AdoptingModernObjective-C/AdoptingModernObjective-C.html#//apple_ref/doc/uid/TP40014150)
+
+- NS_DESIGNATED_INITIALIZER 一个宏，用于修饰构造函数
+- 使用instancetype代替id
+- properties
+
+Xcode工具 Edit -> Refactor -> Convert to Modern OC Syntax..
+
+####11. Handoff
+Handoff也是一个比较有意思的概念，可以用于各设备之间的协作
+
+####12. Notification Center
+增加自定义控件
+
+####13. Photos权限
+可以调用camera接口调教对焦、曝光等等
+
+####14. CloudKit权限
+更多的数据访问权限
+甚至可以利用CloudKit构建一个不需要server端的client-server应用
+
+####15. HealthKit权限
+获取用户的健康数据
+
+####16. Local Authentication权限
+主要包含获取Touch ID的权限
+
+####17. SceneKit
+3D绘图/游戏相关
+
+####18. Core Locations
+室内定位，听说更加精准，以及更少的耗电
 
 
 
