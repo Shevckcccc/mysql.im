@@ -41,12 +41,12 @@ tags: WWDC WWDC-2014
 
 ####2. Presentations适配
 - 增加UIPopoverPresentationController，它是UIPresentationController的子类，
-可以控制view到底是以modal形式还是popover出来。
+可以控制view到底是以modal形式还是popover形势展现出来。
 - UIAlertView 和 UIActionSheet弃用，改成使用UIAlertController代替
 - UISearchController取代了UISearchDisplayController
 
 ####3. 增加UIVisualEffectView(背景虚化视图)
-其中包括主要的类UIBlurEffect和UIVibrancyEffect，做虚化背景又很方便了很多。
+其中包括主要的类UIBlurEffect和UIVibrancyEffect，做虚化背景又方便了很多。
 
 ####4. Image Asset
 因为屏幕尺寸不定，所以想要用一张图片适配所有的尺寸变得越来越困难，
