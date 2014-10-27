@@ -304,4 +304,7 @@ p.feature-image img {
     .resume-update {
         display: none;
     }
+    html, body {
+        overflow-x:hidden
+    }
 }
