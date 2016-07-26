@@ -13,6 +13,14 @@ h1, h2, h3, h4 {
     color: #000;
 }
 
+h1 {
+    font-size: 1.4em;
+}
+
+h4 {
+   margin: 2.5em 0 1.33em;
+}
+
 i {
     vertical-align: middle;
 }
@@ -206,15 +214,14 @@ p.feature-image img {
 
 .title-large {
     clear: left;
-    font-size: 3em;
-    letter-spacing: -2px;
+    font-size: 1.6em;
     margin: 0;
 }
 
 .content {
     color: #333;
-    font-size: 1.2em;
-    line-height: 1.4em;
+    font-size: 1.03em;
+    line-height: 1.6em;
     word-break: break-all;
 }
 
@@ -262,6 +269,13 @@ p.feature-image img {
     width: 80%;
 }
 
+.content p {
+    margin: 1em 0;
+    font-weight: 300;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: #33333d;
+}
+
 .content .discuss {
     font-style: italic;
     margin-top: 1.5em;
@@ -307,4 +321,8 @@ p.feature-image img {
     html, body {
         overflow-x:hidden
     }
+}
+
+hr {
+    border-top: 1px solid #eee;
 }
