@@ -23,4 +23,4 @@ kramdown:
 # Site settings
 permalink: /blog/:year/:month/:day/:title/
 relative_permalinks: false
-highlighter: pygments
+highlighter: rouge
