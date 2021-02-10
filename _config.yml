@@ -1,7 +1,7 @@
 name: 西府
 description:
 url: "http://mysql.im"
-baseurl: /
+baseurl: mysql.im/
 
 # Author info
 author_name: Shevckcccc
