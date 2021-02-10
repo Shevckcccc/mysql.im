@@ -5,7 +5,7 @@ baseurl: mysql.im/
 
 # Author info
 author_name: Shevckcccc
-author_image_path: /mysql.im/images/author-image.jpeg
+author_image_path: cimages/author-image.jpeg
 author_bio: |
     iOS程序员<br>
     创业者<br>
@@ -21,6 +21,6 @@ kramdown:
   parse_block_html: true
 
 # Site settings
-permalink: /blog/:year/:month/:day/:title/
+permalink: /mysql.im/blog/:year/:month/:day/:title/
 relative_permalinks: false
 highlighter: rouge
